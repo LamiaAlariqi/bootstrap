@@ -1,15 +1,43 @@
-.nav-btn{
+.nav-btn {
     background-color: rgb(214, 76, 76);
     color: white;
 }
-.nav-btn:hover{
-    background-color: rgb(200, 56, 76); 
+
+.nav-btn:hover {
+    background-color: rgb(200, 56, 76);
 }
-.logo{
+
+.logo {
     width: 100px;
     height: 70px;
 }
-.carousel-item img{
+
+.carousel-item img {
     height: 400px;
     width: 200px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.carousel-caption {
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    right: 5%;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.card-img-top {
+    width: 350px;
+    height: 200px;
+}
+
+.img-fluid{
+    height: 300px;
+    width: 500px;
 }
