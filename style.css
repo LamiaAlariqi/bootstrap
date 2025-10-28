@@ -1,7 +1,15 @@
-.main-heading{
-    margin-top: 10px;
+.nav-btn{
+    background-color: rgb(214, 76, 76);
+    color: white;
 }
-
-.btnc {
-    background-color: blue;
+.nav-btn:hover{
+    background-color: rgb(200, 56, 76); 
+}
+.logo{
+    width: 100px;
+    height: 70px;
+}
+.carousel-item img{
+    height: 400px;
+    width: 200px;
 }
