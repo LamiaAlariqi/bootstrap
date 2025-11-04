@@ -1,0 +1,25 @@
+body{
+     background-image: url("./login.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    min-width: 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.myform{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.head{
+    margin-top: 80px;
+    margin-left: 180px;
+}
+.button{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.button a{
+    text-decoration: none;
+}

@@ -41,3 +41,18 @@
     height: 300px;
     width: 500px;
 }
+.button{
+    text-align: center;
+    
+}
+.button button{
+    font-size: 18px;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(72, 132, 206)
+    
+}
