@@ -1,25 +1,55 @@
-body{
-     background-image: url("./login.avif");
+/* خلفية الصفحة */
+body {
+    background-image: url("./loginbac.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
     min-width: 100%;
-    background-attachment: fixed;
-    overflow: hidden;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
 }
-.myform{
-    margin-left: 50px;
-    margin-top: 10px;
+
+/* الفورم */
+.myform {
+    background: rgba(255, 255, 255, 0.301);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    margin: 0; /* إزالة المارجن الثابت */
 }
-.head{
-    margin-top: 80px;
-    margin-left: 180px;
+
+/* عنوان الفورم */
+.head {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
-.button{
+
+/* زر */
+.button {
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
-    margin-left: 80px;
 }
-.button a{
+
+.button a {
     text-decoration: none;
+    width: 50%;
+    text-align: center;
+}
+
+/* Responsive على الشاشات الصغيرة */
+@media (max-width: 576px) {
+    .myform {
+        padding: 1.5rem;
+    }
+    .button a {
+        width: 100%;
+    }
 }
